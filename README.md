@@ -4,7 +4,7 @@ Ticker is a simple Bitcoin price ticker for iOS built in a few hours after seein
 *The values shown should not be depended on, check Mt.Gox itself if you're going to buy Bitcoins or something. Ticker is only for fun & information purposes.*
 
 ## Screenshot
-[!http://i.imgur.com/XkGTyUn.png](http://i.imgur.com/XkGTyUn.png)
+![Screenshot](http://i.imgur.com/XkGTyUn.png?1)
 
 ## Building
 You need to have [CocoaPods](http://cocoapods.org) installed on your computer to build the project. `cd` in the project directory and run `pod install`. Open `Ticker.xcworkspace` after CocoaPods is done with its stuff, and build/hack away.
