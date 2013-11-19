@@ -13,8 +13,6 @@
 		412F8579183BE563005E47C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412F8577183BE563005E47C0 /* InfoPlist.strings */; };
 		412F857B183BE563005E47C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F857A183BE563005E47C0 /* main.m */; };
 		412F857F183BE563005E47C0 /* BTCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F857E183BE563005E47C0 /* BTCAppDelegate.m */; };
-		412F8582183BE563005E47C0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412F8580183BE563005E47C0 /* Main_iPhone.storyboard */; };
-		412F8585183BE563005E47C0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412F8583183BE563005E47C0 /* Main_iPad.storyboard */; };
 		412F8588183BE563005E47C0 /* BTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F8587183BE563005E47C0 /* BTCViewController.m */; };
 		412F858A183BE563005E47C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412F8589183BE563005E47C0 /* Images.xcassets */; };
 		412F8591183BE563005E47C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F8590183BE563005E47C0 /* XCTest.framework */; };
@@ -22,6 +20,9 @@
 		412F8593183BE563005E47C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F8572183BE563005E47C0 /* UIKit.framework */; };
 		412F859B183BE563005E47C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412F8599183BE563005E47C0 /* InfoPlist.strings */; };
 		412F859D183BE563005E47C0 /* TickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F859C183BE563005E47C0 /* TickerTests.m */; };
+		41700C1E183BE87E00BCD654 /* BTCBitcoinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41700C1D183BE87E00BCD654 /* BTCBitcoinController.m */; };
+		41700C21183BF5A100BCD654 /* BTCGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41700C20183BF5A100BCD654 /* BTCGraphView.m */; };
+		B7148B326DFC4CAA98D6F5BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E9CE227AFC49E8A2C24540 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,6 @@
 		412F857C183BE563005E47C0 /* Ticker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ticker-Prefix.pch"; sourceTree = "<group>"; };
 		412F857D183BE563005E47C0 /* BTCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCAppDelegate.h; sourceTree = "<group>"; };
 		412F857E183BE563005E47C0 /* BTCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCAppDelegate.m; sourceTree = "<group>"; };
-		412F8581183BE563005E47C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		412F8584183BE563005E47C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		412F8586183BE563005E47C0 /* BTCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCViewController.h; sourceTree = "<group>"; };
 		412F8587183BE563005E47C0 /* BTCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCViewController.m; sourceTree = "<group>"; };
 		412F8589183BE563005E47C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +54,12 @@
 		412F8598183BE563005E47C0 /* TickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickerTests-Info.plist"; sourceTree = "<group>"; };
 		412F859A183BE563005E47C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		412F859C183BE563005E47C0 /* TickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerTests.m; sourceTree = "<group>"; };
+		41700C1C183BE87E00BCD654 /* BTCBitcoinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCBitcoinController.h; sourceTree = "<group>"; };
+		41700C1D183BE87E00BCD654 /* BTCBitcoinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCBitcoinController.m; sourceTree = "<group>"; };
+		41700C1F183BF5A100BCD654 /* BTCGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCGraphView.h; sourceTree = "<group>"; };
+		41700C20183BF5A100BCD654 /* BTCGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCGraphView.m; sourceTree = "<group>"; };
+		6F249DC1A06E474EADDEEA9C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A9E9CE227AFC49E8A2C24540 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 				412F8571183BE563005E47C0 /* CoreGraphics.framework in Frameworks */,
 				412F8573183BE563005E47C0 /* UIKit.framework in Frameworks */,
 				412F856F183BE563005E47C0 /* Foundation.framework in Frameworks */,
+				B7148B326DFC4CAA98D6F5BD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				412F8596183BE563005E47C0 /* TickerTests */,
 				412F856D183BE563005E47C0 /* Frameworks */,
 				412F856C183BE563005E47C0 /* Products */,
+				6F249DC1A06E474EADDEEA9C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +114,7 @@
 				412F8570183BE563005E47C0 /* CoreGraphics.framework */,
 				412F8572183BE563005E47C0 /* UIKit.framework */,
 				412F8590183BE563005E47C0 /* XCTest.framework */,
+				A9E9CE227AFC49E8A2C24540 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,10 +124,12 @@
 			children = (
 				412F857D183BE563005E47C0 /* BTCAppDelegate.h */,
 				412F857E183BE563005E47C0 /* BTCAppDelegate.m */,
-				412F8580183BE563005E47C0 /* Main_iPhone.storyboard */,
-				412F8583183BE563005E47C0 /* Main_iPad.storyboard */,
 				412F8586183BE563005E47C0 /* BTCViewController.h */,
 				412F8587183BE563005E47C0 /* BTCViewController.m */,
+				41700C1C183BE87E00BCD654 /* BTCBitcoinController.h */,
+				41700C1D183BE87E00BCD654 /* BTCBitcoinController.m */,
+				41700C1F183BF5A100BCD654 /* BTCGraphView.h */,
+				41700C20183BF5A100BCD654 /* BTCGraphView.m */,
 				412F8589183BE563005E47C0 /* Images.xcassets */,
 				412F8575183BE563005E47C0 /* Supporting Files */,
 			);
@@ -162,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 412F85A0183BE563005E47C0 /* Build configuration list for PBXNativeTarget "Ticker" */;
 			buildPhases = (
+				3991C14A38D74908B7F435B2 /* Check Pods Manifest.lock */,
 				412F8567183BE563005E47C0 /* Sources */,
 				412F8568183BE563005E47C0 /* Frameworks */,
 				412F8569183BE563005E47C0 /* Resources */,
+				FDD031F170E74486A9372C0F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412F8585183BE563005E47C0 /* Main_iPad.storyboard in Resources */,
 				412F858A183BE563005E47C0 /* Images.xcassets in Resources */,
-				412F8582183BE563005E47C0 /* Main_iPhone.storyboard in Resources */,
 				412F8579183BE563005E47C0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +259,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3991C14A38D74908B7F435B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD031F170E74486A9372C0F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		412F8567183BE563005E47C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -256,7 +299,9 @@
 			files = (
 				412F857F183BE563005E47C0 /* BTCAppDelegate.m in Sources */,
 				412F8588183BE563005E47C0 /* BTCViewController.m in Sources */,
+				41700C1E183BE87E00BCD654 /* BTCBitcoinController.m in Sources */,
 				412F857B183BE563005E47C0 /* main.m in Sources */,
+				41700C21183BF5A100BCD654 /* BTCGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,22 +330,6 @@
 				412F8578183BE563005E47C0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		412F8580183BE563005E47C0 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				412F8581183BE563005E47C0 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		412F8583183BE563005E47C0 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				412F8584183BE563005E47C0 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		412F8599183BE563005E47C0 /* InfoPlist.strings */ = {
@@ -390,6 +419,7 @@
 		};
 		412F85A1183BE563005E47C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F249DC1A06E474EADDEEA9C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -403,6 +433,7 @@
 		};
 		412F85A2183BE563005E47C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F249DC1A06E474EADDEEA9C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,6 +506,7 @@
 				412F85A2183BE563005E47C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		412F85A3183BE563005E47C0 /* Build configuration list for PBXNativeTarget "TickerTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +515,7 @@
 				412F85A5183BE563005E47C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

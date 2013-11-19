@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class BTCBitcoinController, BTCGraphView;
+
 @interface BTCViewController : UIViewController
+
+@property (nonatomic, retain) BTCBitcoinController *bitcoinController;
+@property (nonatomic, retain) NSArray *prices;
+
+@property (nonatomic, retain) UILabel *priceLabel;
+@property (nonatomic, retain) BTCGraphView *graphView;
+@property (nonatomic, retain) UIActivityIndicatorView *loadingView;
 
 @end
