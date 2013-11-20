@@ -9,11 +9,19 @@
 #import <Foundation/Foundation.h>
 #import <SocketRocket/SRWebSocket.h>
 
-typedef void (^BTCBitcoinControllerTickerBlock)(NSString *formattedPrice, CGFloat price);
+#import "BTCBitcoinTick.h"
+
+@class FMDatabaseQueue;
+
+typedef void (^BTCBitcoinControllerTickerBlock)(NSArray *);
 
 @interface BTCBitcoinController : NSObject <SRWebSocketDelegate>
 
+@property (nonatomic, retain) FMDatabaseQueue *databaseQueue;
 @property (nonatomic, retain) SRWebSocket *webSocket;
 @property (nonatomic, copy) BTCBitcoinControllerTickerBlock tickerBlock;
+
+- (instancetype)initWithTickerBlock:(BTCBitcoinControllerTickerBlock)tickerBlock;
+- (void)getTicksWithCompletionBlock:(BTCBitcoinControllerTickerBlock)completionBlock;
 
 @end
