@@ -15,25 +15,11 @@
 		412F857F183BE563005E47C0 /* BTCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F857E183BE563005E47C0 /* BTCAppDelegate.m */; };
 		412F8588183BE563005E47C0 /* BTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F8587183BE563005E47C0 /* BTCViewController.m */; };
 		412F858A183BE563005E47C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412F8589183BE563005E47C0 /* Images.xcassets */; };
-		412F8591183BE563005E47C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F8590183BE563005E47C0 /* XCTest.framework */; };
-		412F8592183BE563005E47C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F856E183BE563005E47C0 /* Foundation.framework */; };
-		412F8593183BE563005E47C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F8572183BE563005E47C0 /* UIKit.framework */; };
-		412F859B183BE563005E47C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412F8599183BE563005E47C0 /* InfoPlist.strings */; };
-		412F859D183BE563005E47C0 /* TickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F859C183BE563005E47C0 /* TickerTests.m */; };
 		41700C1E183BE87E00BCD654 /* BTCBitcoinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41700C1D183BE87E00BCD654 /* BTCBitcoinController.m */; };
 		41700C21183BF5A100BCD654 /* BTCGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41700C20183BF5A100BCD654 /* BTCGraphView.m */; };
+		41B3D09F183D19D90041A40E /* BTCBitcoinTick.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3D09E183D19D90041A40E /* BTCBitcoinTick.m */; };
 		B7148B326DFC4CAA98D6F5BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E9CE227AFC49E8A2C24540 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		412F8594183BE563005E47C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 412F8563183BE563005E47C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 412F856A183BE563005E47C0;
-			remoteInfo = Ticker;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		412F856B183BE563005E47C0 /* Ticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,15 +35,13 @@
 		412F8586183BE563005E47C0 /* BTCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCViewController.h; sourceTree = "<group>"; };
 		412F8587183BE563005E47C0 /* BTCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCViewController.m; sourceTree = "<group>"; };
 		412F8589183BE563005E47C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		412F858F183BE563005E47C0 /* TickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		412F8590183BE563005E47C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		412F8598183BE563005E47C0 /* TickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickerTests-Info.plist"; sourceTree = "<group>"; };
-		412F859A183BE563005E47C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		412F859C183BE563005E47C0 /* TickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerTests.m; sourceTree = "<group>"; };
 		41700C1C183BE87E00BCD654 /* BTCBitcoinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCBitcoinController.h; sourceTree = "<group>"; };
 		41700C1D183BE87E00BCD654 /* BTCBitcoinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCBitcoinController.m; sourceTree = "<group>"; };
 		41700C1F183BF5A100BCD654 /* BTCGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCGraphView.h; sourceTree = "<group>"; };
 		41700C20183BF5A100BCD654 /* BTCGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCGraphView.m; sourceTree = "<group>"; };
+		41B3D09D183D19D90041A40E /* BTCBitcoinTick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCBitcoinTick.h; sourceTree = "<group>"; };
+		41B3D09E183D19D90041A40E /* BTCBitcoinTick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCBitcoinTick.m; sourceTree = "<group>"; };
 		6F249DC1A06E474EADDEEA9C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A9E9CE227AFC49E8A2C24540 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,16 +58,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		412F858C183BE563005E47C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				412F8591183BE563005E47C0 /* XCTest.framework in Frameworks */,
-				412F8593183BE563005E47C0 /* UIKit.framework in Frameworks */,
-				412F8592183BE563005E47C0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				412F8574183BE563005E47C0 /* Ticker */,
-				412F8596183BE563005E47C0 /* TickerTests */,
 				412F856D183BE563005E47C0 /* Frameworks */,
 				412F856C183BE563005E47C0 /* Products */,
 				6F249DC1A06E474EADDEEA9C /* Pods.xcconfig */,
@@ -102,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				412F856B183BE563005E47C0 /* Ticker.app */,
-				412F858F183BE563005E47C0 /* TickerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +100,8 @@
 				412F8587183BE563005E47C0 /* BTCViewController.m */,
 				41700C1C183BE87E00BCD654 /* BTCBitcoinController.h */,
 				41700C1D183BE87E00BCD654 /* BTCBitcoinController.m */,
+				41B3D09D183D19D90041A40E /* BTCBitcoinTick.h */,
+				41B3D09E183D19D90041A40E /* BTCBitcoinTick.m */,
 				41700C1F183BF5A100BCD654 /* BTCGraphView.h */,
 				41700C20183BF5A100BCD654 /* BTCGraphView.m */,
 				412F8589183BE563005E47C0 /* Images.xcassets */,
@@ -143,24 +117,6 @@
 				412F8577183BE563005E47C0 /* InfoPlist.strings */,
 				412F857A183BE563005E47C0 /* main.m */,
 				412F857C183BE563005E47C0 /* Ticker-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		412F8596183BE563005E47C0 /* TickerTests */ = {
-			isa = PBXGroup;
-			children = (
-				412F859C183BE563005E47C0 /* TickerTests.m */,
-				412F8597183BE563005E47C0 /* Supporting Files */,
-			);
-			path = TickerTests;
-			sourceTree = "<group>";
-		};
-		412F8597183BE563005E47C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				412F8598183BE563005E47C0 /* TickerTests-Info.plist */,
-				412F8599183BE563005E47C0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -187,24 +143,6 @@
 			productReference = 412F856B183BE563005E47C0 /* Ticker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		412F858E183BE563005E47C0 /* TickerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 412F85A3183BE563005E47C0 /* Build configuration list for PBXNativeTarget "TickerTests" */;
-			buildPhases = (
-				412F858B183BE563005E47C0 /* Sources */,
-				412F858C183BE563005E47C0 /* Frameworks */,
-				412F858D183BE563005E47C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				412F8595183BE563005E47C0 /* PBXTargetDependency */,
-			);
-			name = TickerTests;
-			productName = TickerTests;
-			productReference = 412F858F183BE563005E47C0 /* TickerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,11 +152,6 @@
 				CLASSPREFIX = BTC;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Mert Dumenci";
-				TargetAttributes = {
-					412F858E183BE563005E47C0 = {
-						TestTargetID = 412F856A183BE563005E47C0;
-					};
-				};
 			};
 			buildConfigurationList = 412F8566183BE563005E47C0 /* Build configuration list for PBXProject "Ticker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -234,7 +167,6 @@
 			projectRoot = "";
 			targets = (
 				412F856A183BE563005E47C0 /* Ticker */,
-				412F858E183BE563005E47C0 /* TickerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,14 +178,6 @@
 			files = (
 				412F858A183BE563005E47C0 /* Images.xcassets in Resources */,
 				412F8579183BE563005E47C0 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		412F858D183BE563005E47C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				412F859B183BE563005E47C0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,40 +226,17 @@
 				41700C1E183BE87E00BCD654 /* BTCBitcoinController.m in Sources */,
 				412F857B183BE563005E47C0 /* main.m in Sources */,
 				41700C21183BF5A100BCD654 /* BTCGraphView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		412F858B183BE563005E47C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				412F859D183BE563005E47C0 /* TickerTests.m in Sources */,
+				41B3D09F183D19D90041A40E /* BTCBitcoinTick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		412F8595183BE563005E47C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 412F856A183BE563005E47C0 /* Ticker */;
-			targetProxy = 412F8594183BE563005E47C0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		412F8577183BE563005E47C0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				412F8578183BE563005E47C0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		412F8599183BE563005E47C0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				412F859A183BE563005E47C0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -447,48 +348,6 @@
 			};
 			name = Release;
 		};
-		412F85A4183BE563005E47C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ticker.app/Ticker";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ticker/Ticker-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TickerTests/TickerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		412F85A5183BE563005E47C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ticker.app/Ticker";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ticker/Ticker-Prefix.pch";
-				INFOPLIST_FILE = "TickerTests/TickerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,15 +365,6 @@
 			buildConfigurations = (
 				412F85A1183BE563005E47C0 /* Debug */,
 				412F85A2183BE563005E47C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		412F85A3183BE563005E47C0 /* Build configuration list for PBXNativeTarget "TickerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				412F85A4183BE563005E47C0 /* Debug */,
-				412F85A5183BE563005E47C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
